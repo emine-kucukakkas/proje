@@ -8,18 +8,17 @@ namespace Models
 {
     public class HastaIlac
     {
-        public class Ogrenci
-        {
+        
             public int HastailacID { get; set; }
 
             //[Column(TypeName ="varchar")]
             //[MaxLength(50)]
             //[Required]
-            public int verilis { get; set; }
+            public string verilis { get; set; }
             //[Column(TypeName = "varchar")]
             //[MaxLength(75)]
             //[Required]
-            public int bitis { get; set; }
+            public string bitis { get; set; }
             //[Column(TypeName = "varchar")]
             //[MaxLength(10)]
             //[Required]
@@ -38,4 +37,4 @@ namespace Models
 
         }
     }
-}
+
